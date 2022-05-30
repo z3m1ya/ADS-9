@@ -76,7 +76,7 @@ template<typename T>
       return 0;
     }
     int lx = depthTree(root->l);
-    int rx = depthTree(root->right);
+    int rx = depthTree(root->r);
     int m = ((lx > rx) ? lx : rx) + 1;
     return m;
   }
