@@ -17,7 +17,7 @@ BST<std::string> makeTree(const char* name) {
     if ((ch >= 'a') && (ch <= 'z')) {
       word += ch;
     } else {
-      Tree.Add(word);
+      Tree.add(word);
       word = t;
     }
   }
